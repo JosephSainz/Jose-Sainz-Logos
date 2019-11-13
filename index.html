@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,12 +12,17 @@
     <nav>
       <ul>
         <li><a href="index.html"></a href="index.html">jose sainz</a></li>
-      
+        <li>
+          <div class="toggle-container">
+          <input type="checkbox" id="switch" name="theme"/><label for="switch">Toggle</label>
+        </li>
+        </div>
       </ul>
     </nav>
   </header>
 
   <section id="img-grid">
+    <img src="img/gamelogo.jpg" alt="gamelogo">
     <img src="img/bukhos.jpg" alt="bukhos">
     <img src="img/slime.jpg" alt="slime">
     <img src="img/noname.jpg" alt="noname">
@@ -32,5 +37,7 @@
   <footer id="footer">
     <p>Contact: joedanielsainz@gmail.com</p>
   </footer>
+
+  <script src="app.js"></script>
 </body>
 </html>
